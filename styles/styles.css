@@ -5,6 +5,22 @@
   padding: 0 25px 20px;
 }
 
+@media screen and (max-width: 1100px) {
+  .titre-globale {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .titre-globale {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .titre-globale {
+    font-size: 35px;
+    padding: 10px 5px;
+  }
+}
 .accueil, nav ul {
   display: flex;
   justify-content: center;
@@ -146,6 +162,36 @@ nav li a:hover::after {
 
 .accueil img {
   width: 1000px;
+}
+
+@media screen and (max-width: 1100px) {
+  .accueil {
+    padding: 0 0 0;
+    height: 700px;
+  }
+  .accueil img {
+    width: 700px;
+  }
+  .sous-titre {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .accueil {
+    padding: 100px 0 0;
+  }
+}
+@media screen and (max-width: 750px) {
+  .accueil {
+    padding: 100px 0 50px;
+    height: 500px;
+  }
+  .accueil img {
+    width: 500px;
+  }
+  .sous-titre {
+    font-size: 22px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
