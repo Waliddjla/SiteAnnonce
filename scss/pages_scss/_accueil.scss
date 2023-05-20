@@ -116,6 +116,8 @@ nav li a:hover::after {
     padding-bottom: 400px;
 
 }
+//----------------Accueill-----------//
+
 .accueil {
     width:  100%;
     height: 900px;
@@ -166,4 +168,126 @@ nav li a:hover::after {
         font-size: 22px;
     }
 
+}
+@media screen and (max-width:550px) {
+    .accueil {
+        padding:75px 0 50px;
+        height: 400px;
+    }
+    .accueil img {
+        width: 400px;
+    }
+    .sous-titre {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:450px) {
+    .accueil {
+        padding:75px 0 50px;
+        height: 400px;
+    }
+    .accueil img {
+        width: 320px;
+    }
+    .sous-titre {
+        font-size: 18px;
+    }
+}
+//----------------Perfomrmances-----------//
+.container-performances {
+    padding: 100px 20px 150px;
+    margin-bottom: 100px;
+    background-image: linear-gradient(45deg, rgba(254, 246, 210, 0.53) 0%,
+     rgba(254, 246, 210, 0.53) 14.286%,rgba(227,240,223, 0.53) 14.286%,
+      rgba(227,240,223, 0.53) 28.572%,rgba(196,234,226, 0.53) 28.572%,
+       rgba(196,234,226, 0.53) 42.858%,rgba(197,233,234, 0.53) 42.858%,
+        rgba(197,233,234, 0.53) 57.144%,rgba(190,236,242, 0.53) 57.144%,
+         rgba(190,236,242, 0.53) 71.42999999999999%,rgba(191,236,247, 0.53) 71.43%,
+          rgba(191,236,247, 0.53) 85.71600000000001%,rgba(156,216,232, 0.53) 85.716%,
+           rgba(156,216,232, 0.53) 100.002%),
+           linear-gradient(135deg, rgb(236,162,213) 0%,
+            rgb(236,162,213) 12.5%,rgb(220,170,209) 12.5%, rgb(220,170,209) 25%,
+            rgb(212,175,209) 25%, rgb(212,175,209) 37.5%,rgb(192,145,199) 37.5%,
+             rgb(192,145,199) 50%,rgb(195,153,218) 50%, rgb(195,153,218) 62.5%,
+             rgb(170,150,199) 62.5%, rgb(170,150,199) 75%,rgb(147,138,201) 75%, 
+             rgb(147,138,201) 87.5%,rgb(168,173,212) 87.5%, rgb(168,173,212) 100%);
+    clip-path: polygon(0 0,100% 17%, 100% 100%, 0 85%);
+}
+.separation {
+    margin: 0 auto 70px;
+    height: 2px;
+    width: 300px;
+    border-radius: 3px;
+    background: #000;
+    border: none;
+}
+.container-boxs {
+    width: 100%;
+    @extend %flex-double-centre;
+}
+.box {
+    margin: 0 20px;
+}
+.box p {
+    text-align: center;
+} 
+.nombre-clients {
+    font-size: 85px;
+    padding-bottom: 7px;
+}
+.type-de-client {
+    font-size: 30px;
+    padding-bottom: 7px;
+    font-weight: bold;    
+}
+.info-client {
+    font-size: 20px;
+}
+@media screen and (max-width: 1000px) {
+    .nombre-clients {
+        font-size: 80px;
+    }
+    
+}
+@media screen and (max-width: 750px) {
+    .container-performances {
+        padding: 170px 15px 150px;
+    }
+    .container-boxs {
+        flex-direction: column;
+    }
+    .box {
+        margin: 20px 0px;
+    }
+    .separation {
+        margin: 0 auto 30px;
+        width: 30%;
+    }
+    .nombre-clients {
+        font-size: 80px;
+    }
+    .type-de-client {
+        font-size: 25px;   
+    }
+    .info-client {
+        width: 100%;
+        font-size: 22px;
+    }
+
+}
+@media screen and (max-width: 650px) {
+    .container-performances {
+        padding: 135px 20px 150px;
+    }
+    .nombre-clients {
+        font-size: 50px;
+    }
+    .type-de-client {
+        font-size: 22px;   
+    }
+    .info-client {
+        width: 100%;
+        font-size: 20px;
+    }
+    
 }
