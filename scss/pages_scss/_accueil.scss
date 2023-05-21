@@ -412,10 +412,10 @@ footer {
     width: 300px;
     margin: 0 30px;
 }
-.footer-media h3 {
+footer h3 {
     text-align: center;
     font-size: 30px;
-    padding-bottom: 7px;
+    padding-bottom: 5px;
 }
 footer p {
     font-size: 20px;
@@ -425,6 +425,6 @@ footer p {
     @extend %flex-double-centre;
 }
 .liste-media img {
-    width: 30px;
-    margin: 1px 10px;
+    width: 40px;
+    margin: 10px 10px;
 }
