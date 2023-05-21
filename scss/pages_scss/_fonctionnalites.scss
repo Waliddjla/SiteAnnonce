@@ -1,0 +1,30 @@
+//---- Acueil-----------
+.titre-fonctionnalites {
+    padding: 130px 0 20px;
+}
+.sous-titre-fonctionnalites {
+    text-align: center;
+    font-size: 24px;
+}
+.container-btn-accueil {
+    margin: 20px auto;   
+    display: flex;
+    justify-content: center;
+}
+.btn-foncyionnalites {
+    display: block;
+    width: 200px;
+    padding: 15px;
+    background: $violet-principal;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+.fantome {
+    border: 2px solid $violet-principal;
+    background: transparent;
+    color: $violet-principal;
+}
