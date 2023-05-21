@@ -368,5 +368,38 @@ nav li a:hover::after {
     font-size: 18px;
   }
 }
+.container-cta {
+  padding: 150px 0 100px;
+  clip-path: polygon(0 17%, 100% 0%, 100% 82%, 0 100%);
+  background-image: linear-gradient(45deg, rgba(254, 246, 210, 0.53) 0%, rgba(254, 246, 210, 0.53) 14.286%, rgba(227, 240, 223, 0.53) 14.286%, rgba(227, 240, 223, 0.53) 28.572%, rgba(196, 234, 226, 0.53) 28.572%, rgba(196, 234, 226, 0.53) 42.858%, rgba(197, 233, 234, 0.53) 42.858%, rgba(197, 233, 234, 0.53) 57.144%, rgba(190, 236, 242, 0.53) 57.144%, rgba(190, 236, 242, 0.53) 71.43%, rgba(191, 236, 247, 0.53) 71.43%, rgba(191, 236, 247, 0.53) 85.716%, rgba(156, 216, 232, 0.53) 85.716%, rgba(156, 216, 232, 0.53) 100.002%), linear-gradient(135deg, rgb(236, 162, 213) 0%, rgb(236, 162, 213) 12.5%, rgb(220, 170, 209) 12.5%, rgb(220, 170, 209) 25%, rgb(212, 175, 209) 25%, rgb(212, 175, 209) 37.5%, rgb(192, 145, 199) 37.5%, rgb(192, 145, 199) 50%, rgb(195, 153, 218) 50%, rgb(195, 153, 218) 62.5%, rgb(170, 150, 199) 62.5%, rgb(170, 150, 199) 75%, rgb(147, 138, 201) 75%, rgb(147, 138, 201) 87.5%, rgb(168, 173, 212) 87.5%, rgb(168, 173, 212) 100%);
+}
+
+.txt-cta {
+  text-align: center;
+  font-size: 22px;
+  padding: 0 10px;
+}
+
+.btn-appel {
+  display: block;
+  color: #f1f1f1;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  margin: 30px auto;
+  width: 250px;
+  padding: 20px;
+  border-radius: 9999px;
+  background: #8a56eb;
+}
+
+@media screen and (max-width: 750px) {
+  .txt-cta {
+    font-size: 18px;
+  }
+  .btn-appel {
+    width: 170px;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
