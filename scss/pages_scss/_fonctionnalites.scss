@@ -28,3 +28,30 @@
     background: transparent;
     color: $violet-principal;
 }
+//-----------fonctionnalites---------//
+.container-fonctionnalites {
+    margin: 125px auto 200px;
+    width: 90%;
+    max-width: 17000px;
+    min-width: 300px;
+    @extend %flex-double-centre;
+    flex-wrap: wrap;
+}
+.box-fonctionnalites {
+    width: 400px;
+    display: flex;
+    margin: 20px 10px;
+}
+.gauche-img {
+    font-size: 50px;
+    padding: 5px;
+}
+.droite-txt p:nth-of-type(1){
+    font-size: 35px;
+    font-weight: 700;
+}
+.droite-txt p:nth-of-type(2){
+    font-size: 25px;
+    line-height: 1.2;
+}
+

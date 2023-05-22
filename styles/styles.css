@@ -21,7 +21,7 @@
     padding: 10px 5px;
   }
 }
-.liste-media, footer, .container-faq, .container-boxs, .accueil, nav ul {
+.container-fonctionnalites, .liste-media, footer, .container-faq, .container-boxs, .accueil, nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -465,6 +465,35 @@ footer p {
   border: 2px solid #8a56eb;
   background: transparent;
   color: #8a56eb;
+}
+
+.container-fonctionnalites {
+  margin: 125px auto 200px;
+  width: 90%;
+  max-width: 17000px;
+  min-width: 300px;
+  flex-wrap: wrap;
+}
+
+.box-fonctionnalites {
+  width: 400px;
+  display: flex;
+  margin: 20px 10px;
+}
+
+.gauche-img {
+  font-size: 50px;
+  padding: 5px;
+}
+
+.droite-txt p:nth-of-type(1) {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.droite-txt p:nth-of-type(2) {
+  font-size: 25px;
+  line-height: 1.2;
 }
 
 /*# sourceMappingURL=styles.css.map */
