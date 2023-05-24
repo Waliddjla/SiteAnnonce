@@ -7,11 +7,11 @@ btnNav.addEventListener('click', ()=> {
     listNav.classList.toggle('active-nav');
 
     if(imgBtn.src.includes('menu')) {
-        imgBtn.src = './ressources/croix.svg';
+        imgBtn.src = '../ressources/croix.svg';
         imgBtn.style.width = "30px";
         imgBtn.style.heigth = "30px";
     }else {
-        imgBtn.src = './ressources/menu.svg';
+        imgBtn.src = '../ressources/menu.svg';
         imgBtn.style.width = "40px";
         imgBtn.style.heigth = "40px";
     }

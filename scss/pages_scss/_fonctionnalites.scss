@@ -110,5 +110,83 @@ form button {
     }
 }
 
+//----------Nos Produits---------//
+
+.galrie-txt-pics {
+    width: 1300px;
+    margin: 0 auto;
+    @extend %flex-double-centre;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+.txt-box-galrie {
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.txt-box-galrie p:nth-child(1){
+    font-size: 40px;
+    font-weight: lighter;
+    padding: 0 0 10px 0;
+}
+.undrline-violet{
+    width: 350px;
+    height: 3px;
+    background: $violet-principal;
+    margin: 0px;
+}
+.txt-box-galrie p:nth-child(3) {
+    font-size: 33px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.txt-box-galrie p:nth-child(4) {
+    font-size: 30px;
+    padding: 0px 0 10px;
+}
+.txt-box-galrie a  {
+    color: #000;
+    font-size: 20px;
+    padding: 10px 0;
+}
+.img-box-galrie {
+    border: 1px solid #000;
+    width: 500px;
+    height: 500px;
+    background: url(../../ressources/img-galerie.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px;
+}
+
+@media screen and (max-width:1300px ) {
+    .galrie-txt-pics {
+        width: 90%;
+    }
+    .txt-box-galrie {
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width:800px ) {
+    .txt-box-galrie p:nth-child(1){
+        font-size: 25px;
+    }
+    .galrie-txt-pics {
+        margin-bottom: 50px;
+    }
+    .galrie-txt-pics {
+        margin: 5px;
+    }
+    .txt-box-galrie {
+        margin: 5px;
+    }
+    
+}
 
 
