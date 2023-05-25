@@ -38,3 +38,27 @@ allCros.forEach(logo => {
        
     })
 })
+
+// onglets
+
+const choixTarifs = Array.from(document.querySelectorAll('.choix'));
+const contenuTaris = Array.from(document.querySelectorAll('.panneau'));
+
+
+choixTarifs.forEach (choix => {
+    choix.addEventListener ('click', (e) =>  {
+        let indexClic  = choixTarifs.indexOf(e.target);
+
+        for(i=0; i<choixTarifs.length; i++){
+            if(i=== indexClic){
+                choixTarifs[i].classList.add('active-choix');
+                contenuTaris[i].classList.add('panneau-active');
+            }else {
+                choixTarifs[i].classList.remove('active-choix');
+                contenuTaris[i].classList.remove('panneau-active');
+            }
+
+        }
+    })
+}) 
+

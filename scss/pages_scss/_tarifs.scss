@@ -1,0 +1,86 @@
+.titre-tarifs {
+    padding:  120px 0 20px;
+}
+.container-tarifs {
+    margin: 125px auto 200px;
+    width: 60%;
+    max-width: 1100px;
+    min-width: 300px;
+    height: auto;
+}
+.choix-tarifs {
+    margin: 0 auto;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.choix {
+    font-family: Comfortaa, sans-serif;
+    height: 100%;
+    width: 170px;
+    outline: none;
+    border: none;
+    @extend %flex-double-centre;
+    font-size: 30px;
+    letter-spacing: 2px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
+.choix:nth-child(1){
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.2);
+    border-right: 1px solid #fff;
+}
+.choix:nth-child(2){
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.2);
+    border-right: 1px solid #fff;
+}
+.choix:nth-child(3){
+    box-shadow: 5px -5px 15px rgba(0, 0, 0, 0.2);
+   
+}
+.choix.active-choix {
+    background-color: #fff;
+    color: #000;  
+}
+.tableau {
+    border-collapse: collapse;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    font-size: 30px;
+    color: #000;
+    background-image: linear-gradient(45deg, rgba(254, 246, 210, 0.53) 0%,
+    rgba(254, 246, 210, 0.53) 14.286%,rgba(227,240,223, 0.53) 14.286%,
+     rgba(227,240,223, 0.53) 28.572%,rgba(196,234,226, 0.53) 28.572%,
+      rgba(196,234,226, 0.53) 42.858%,rgba(197,233,234, 0.53) 42.858%,
+       rgba(197,233,234, 0.53) 57.144%,rgba(190,236,242, 0.53) 57.144%,
+        rgba(190,236,242, 0.53) 71.42999999999999%,rgba(191,236,247, 0.53) 71.43%,
+         rgba(191,236,247, 0.53) 85.71600000000001%,rgba(156,216,232, 0.53) 85.716%,
+          rgba(156,216,232, 0.53) 100.002%),
+          linear-gradient(135deg, rgb(236,162,213) 0%,
+           rgb(236,162,213) 12.5%,rgb(220,170,209) 12.5%, rgb(220,170,209) 25%,
+           rgb(212,175,209) 25%, rgb(212,175,209) 37.5%,rgb(192,145,199) 37.5%,
+            rgb(192,145,199) 50%,rgb(195,153,218) 50%, rgb(195,153,218) 62.5%,
+            rgb(170,150,199) 62.5%, rgb(170,150,199) 75%,rgb(147,138,201) 75%, 
+            rgb(147,138,201) 87.5%,rgb(168,173,212) 87.5%, rgb(168,173,212) 100%);
+}
+th {
+    font-size: 40px;
+}
+td, th {
+    border: 1px solid #222;
+    padding: 8px;
+    vertical-align: middle;
+    width: 50%;
+}
+td {
+    padding-left: 15px;
+}
+.panneau {
+    display: none;
+}
+.panneau-active {
+    display: block;
+}
