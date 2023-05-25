@@ -84,3 +84,41 @@ td {
 .panneau-active {
     display: block;
 }
+
+@media screen and (max-width: 1200px) {
+    .container-tarifs {
+        width: 90%;
+        margin: 55px auto 100px;
+    } 
+}
+@media screen and (max-width: 900px) {
+    .container-tarifs {
+        width: 95%;
+    } 
+    .choix-tarifs {
+        height: 100px;
+    }
+    .choix {
+        width: 150px;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container-tarifs {
+        width: 300px;
+    }
+    .choix-tarifs {
+        height: 75px;
+    }
+    .choix {
+        width: 100px;
+        font-size: 18px;
+    }
+    .tableau {
+        height: 500px;
+        font-size: 22px;
+    }
+    th {
+        font-size: 30px;
+    }
+}
